@@ -3,23 +3,23 @@ import { Card, CardContent } from "@/components/ui/card";
 const videoTestimonials = [
   {
     id: "pvpi-TULTuc",
-    title: "Military Veteran Success Story",
-    description: "How Brazilian Jiu-Jitsu helped build mental resilience and discipline after service"
+    title: "Student Success Story",
+    description: "How Brazilian Jiu-Jitsu helped build mental resilience and discipline"
   },
   {
     id: "-whapUsgCg4", 
-    title: "From Service to the Mats",
-    description: "A veteran's journey to finding new purpose and brotherhood through martial arts"
+    title: "Finding Purpose on the Mats",
+    description: "A student's journey to finding new purpose and brotherhood through martial arts"
   },
   {
     id: "GA797dKM_wQ",
-    title: "Combat Veteran Testimonial", 
+    title: "Adult Student Testimonial", 
     description: "Real talk about stress management and healing through Jiu-Jitsu training"
   },
   {
     id: "kQxFJh8Fh7E",
-    title: "Military Brotherhood at Gracie Barra",
-    description: "The camaraderie and support system that veterans find in our community"
+    title: "Brotherhood at Gracie Barra",
+    description: "The camaraderie and support system that students find in our community"
   }
 ];
 
@@ -29,11 +29,11 @@ const VideoTestimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Veteran Stories: In Their Own Words
+            Real Stories: In Their Own Words
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Watch real veterans and military personnel share their transformation 
-            stories and experiences at Gracie Barra Layton.
+            Watch real students share their transformation stories and experiences 
+            at Gracie Barra Layton.
           </p>
         </div>
         
@@ -65,7 +65,7 @@ const VideoTestimonials = () => {
               🎥 More Stories Available
             </h3>
             <p className="text-muted-foreground">
-              These testimonials represent real experiences from our veteran community. 
+              These testimonials represent real experiences from our community. 
               Your transformation story could be next.
             </p>
           </div>
