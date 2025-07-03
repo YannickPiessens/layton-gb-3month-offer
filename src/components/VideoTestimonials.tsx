@@ -2,34 +2,24 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const videoTestimonials = [
   {
-    id: "OwaRF8Z_qN8",
-    title: "Veteran Success Story - Mental Strength",
-    description: "How Brazilian Jiu-Jitsu helped build mental resilience after service"
+    id: "pvpi-TULTuc",
+    title: "Military Veteran Success Story",
+    description: "How Brazilian Jiu-Jitsu helped build mental resilience and discipline after service"
   },
   {
-    id: "gWCAWBThRWg", 
-    title: "From Military to BJJ - Finding Purpose",
-    description: "A veteran's journey to finding new purpose and brotherhood"
+    id: "-whapUsgCg4", 
+    title: "From Service to the Mats",
+    description: "A veteran's journey to finding new purpose and brotherhood through martial arts"
   },
   {
-    id: "tHX0ETfjhtg",
+    id: "GA797dKM_wQ",
     title: "Combat Veteran Testimonial", 
-    description: "Real talk about PTSD, discipline, and healing through martial arts"
+    description: "Real talk about stress management and healing through Jiu-Jitsu training"
   },
   {
-    id: "1SEsUCkzQTI",
+    id: "kQxFJh8Fh7E",
     title: "Military Brotherhood at Gracie Barra",
-    description: "The camaraderie and support system for service members"
-  },
-  {
-    id: "tO8IA3j_aC8",
-    title: "Stress Relief Through Training",
-    description: "How Jiu-Jitsu provides healthy stress management for veterans"
-  },
-  {
-    id: "DZVoaLzT40s",
-    title: "Instructor Support for Veterans",
-    description: "Our commitment to supporting military personnel and veterans"
+    description: "The camaraderie and support system that veterans find in our community"
   }
 ];
 
@@ -47,8 +37,8 @@ const VideoTestimonials = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {videoTestimonials.slice(0, 6).map((video, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {videoTestimonials.map((video, index) => (
             <Card key={index} className="shadow-lg hover:shadow-xl transition-all duration-300 border-border">
               <CardContent className="p-0">
                 <div className="aspect-video">

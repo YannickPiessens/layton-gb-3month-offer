@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import gbLogo from "@/assets/gb-logo.png";
+
+const gbLogo = "/lovable-uploads/bee8aa9e-c16e-4413-97f1-25f68cb01ef6.png";
 
 const Hero = () => {
   const handlePurchase = () => {
