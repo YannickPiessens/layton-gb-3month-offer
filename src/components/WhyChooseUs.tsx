@@ -7,7 +7,7 @@ const benefits = [
     icon: "🧠"
   },
   {
-    title: "Brotherhood & Community",
+    title: "Community & Camaraderie",
     description: "Connect with fellow service members and veterans who understand your journey",
     icon: "🤝"
   },
@@ -37,15 +37,15 @@ const WhyChooseUs = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Why Veterans Choose Gracie Barra
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Continue your mission of excellence with training that builds on the discipline, 
-            honor, and commitment you've already developed in service.
-          </p>
-        </div>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+              Why Military Families Choose Gracie Barra
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Continue your mission of excellence with training that builds on the discipline, 
+              honor, and commitment you've already developed in service.
+            </p>
+          </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {benefits.map((benefit, index) => (

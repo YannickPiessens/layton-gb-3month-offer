@@ -22,11 +22,11 @@ const Hero = () => {
               <span className="text-gb-red">Military & Veterans</span> Special
             </h1>
             <h2 className="text-2xl md:text-3xl text-gb-blue font-semibold mb-6">
-              3 Months for $270 • Honor • Discipline • Brotherhood
+              $270 for 3 Months Unlimited • Honor • Discipline • Community
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Exclusive offer for our Military and Veterans. Continue your journey of discipline and excellence 
-              with authentic Brazilian Jiu-Jitsu training. Build strength, sharpen your mind, and join a brotherhood 
+              with authentic Brazilian Jiu-Jitsu training. Build strength, sharpen your mind, relieve stress, and join a community 
               that understands service and sacrifice.
             </p>
           </div>
@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-gb-light-blue rounded-lg p-6 text-center border-2 border-gb-blue">
               <div className="text-4xl font-bold text-gb-blue mb-2">$270</div>
-              <div className="text-foreground font-semibold">3 Months Complete</div>
+              <div className="text-foreground font-semibold">3 Months Unlimited</div>
               <div className="text-sm text-muted-foreground mt-2">
                 Military/Veteran exclusive pricing
               </div>
@@ -58,7 +58,7 @@ const Hero = () => {
               <div className="text-4xl font-bold text-gb-blue mb-2">ZERO</div>
               <div className="text-foreground font-semibold">Commitment</div>
               <div className="text-sm text-muted-foreground mt-2">
-                No long-term contracts - your choice
+                No long-term contract, month to month
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Hero = () => {
               🇺🇸 Claim Your Military Discount
             </Button>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm text-muted-foreground">
-              <span>✅ Brotherhood and camaraderie</span>
+              <span>✅ Community and camaraderie</span>
               <span>✅ Physical and mental discipline</span>
               <span>✅ Stress relief and fitness</span>
             </div>

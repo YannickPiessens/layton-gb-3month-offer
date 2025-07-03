@@ -6,10 +6,10 @@ const rafaelPhoto = "/lovable-uploads/363c8c04-7668-4f5c-87fd-e93f47019cc3.png";
 const instructors = [
   {
     name: "Master Nelson Monteiro",
-    title: "7th Degree Coral Belt",
+    title: "Coral Belt",
     image: nelsonPhoto,
     description: "Born in Rio de Janeiro, the birthplace of Brazilian Jiu-Jitsu. Started training at 13 under Master Carlos Gracie Jr. Black belt in 1989, Bachelor's in Physical Education. Pioneer of BJJ in the US since 1990, helped form the prestigious ADCC championships.",
-    credentials: "7th Degree Coral Belt • 2x World Champion • ADCC Co-Founder"
+    credentials: "Coral Belt • 2x World Champion • ADCC Co-Founder"
   },
   {
     name: "Professor Rafael Ramos",
@@ -26,10 +26,10 @@ const InstructorTeam = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            World-Class Instruction Team
+            The Importance of Lineage
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Learn from authentic Brazilian Jiu-Jitsu masters who trained directly 
+            Your lineage is our lineage. Learn authentic Brazilian Jiu-Jitsu from masters who trained directly 
             under the legendary Master Carlos Gracie Jr.
           </p>
         </div>
@@ -68,12 +68,12 @@ const InstructorTeam = () => {
         <div className="text-center mt-16">
           <div className="bg-white rounded-lg p-8 max-w-3xl mx-auto border-2 border-gb-blue shadow-lg">
             <h3 className="text-2xl font-bold text-gb-blue mb-4">
-              🥋 Authentic Lineage • Proven Excellence
+              🥋 Authentic Lineage • Your Lineage is Our Lineage
             </h3>
             <p className="text-lg text-muted-foreground">
               Both Master Nelson and Professor Rafael learned directly from Master Carlos Gracie Jr., 
               ensuring you receive the most authentic Brazilian Jiu-Jitsu instruction available. 
-              Their combined expertise spans <strong>decades of competition and teaching excellence</strong>.
+              Professor Hoffa is a 5th degree Black Belt. Their combined expertise spans <strong>decades of competition and teaching excellence</strong>.
             </p>
             <div className="mt-6 text-center">
               <span className="inline-block bg-gb-red text-white px-4 py-2 rounded-full font-semibold">

@@ -3,7 +3,6 @@ import ValueBreakdown from "@/components/ValueBreakdown";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import AboutSteve from "@/components/AboutSteve";
 import InstructorTeam from "@/components/InstructorTeam";
-import Testimonials from "@/components/Testimonials";
 import VideoTestimonials from "@/components/VideoTestimonials";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
@@ -16,7 +15,6 @@ const Index = () => {
       <WhyChooseUs />
       <AboutSteve />
       <InstructorTeam />
-      <Testimonials />
       <VideoTestimonials />
       <FinalCTA />
       <Footer />

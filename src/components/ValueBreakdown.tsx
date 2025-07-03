@@ -12,7 +12,7 @@ const ValueBreakdown = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Military & Veteran Exclusive Pricing
+              Military and Veterans Exclusive Pricing
             </h2>
             <p className="text-lg text-muted-foreground">
               Our way of saying thank you for your service - see exactly what you get with this exclusive offer
@@ -67,7 +67,7 @@ const ValueBreakdown = () => {
                       <div className="w-8 h-8 bg-gb-blue text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
                       <div>
                         <div className="font-semibold text-foreground">Start Training</div>
-                        <div className="text-sm text-muted-foreground">Begin as early as tomorrow</div>
+                        <div className="text-sm text-muted-foreground">Sign up today, start tonight</div>
                       </div>
                     </div>
                     <div className="flex items-start gap-3 p-3 bg-white rounded border-l-4 border-gb-blue">
@@ -75,7 +75,7 @@ const ValueBreakdown = () => {
                       <div>
                         <div className="font-semibold text-foreground">After 3 Months</div>
                         <div className="text-sm text-muted-foreground">
-                          Continue at discounted veteran rate: $149/mo - or complete your mission with us
+                          Continue at $149/month, month to month
                         </div>
                       </div>
                     </div>
@@ -93,7 +93,7 @@ const ValueBreakdown = () => {
                   🇺🇸 Secure Your Military Discount
                 </Button>
                 <p className="text-sm text-muted-foreground mt-3">
-                  🔒 Secure payment • No hidden fees • Cancel anytime after 3 months
+                  🔒 Secure payment • No hidden fees • No long-term contract
                 </p>
               </div>
             </CardContent>

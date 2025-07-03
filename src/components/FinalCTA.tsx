@@ -28,7 +28,7 @@ const FinalCTA = () => {
               </div>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gb-red mb-2">FREE</div>
-                <div className="text-white/90">Uniform + Brotherhood</div>
+                <div className="text-white/90">Uniform + Community</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gb-red mb-2">HONOR</div>
@@ -48,11 +48,11 @@ const FinalCTA = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6 text-white/80">
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-gb-red rounded-full" />
-                Military ID verification required
+                Stress relief and PTSD support
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-gb-red rounded-full" />
-                Veteran brotherhood awaits
+                Veteran community awaits
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-gb-red rounded-full" />
