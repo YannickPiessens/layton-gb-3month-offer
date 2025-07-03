@@ -34,7 +34,7 @@ const ValueBreakdown = () => {
                     </div>
                     <div className="flex justify-between items-center p-3 bg-gray-50 rounded">
                       <span className="text-foreground">Free Uniform (Gi)</span>
-                      <span className="font-semibold text-foreground">$100+</span>
+                      <span className="font-semibold text-foreground">$200</span>
                     </div>
                     <div className="border-t-2 border-gb-red pt-4">
                       <div className="flex justify-between items-center p-3 bg-gb-light-blue rounded">
@@ -43,7 +43,7 @@ const ValueBreakdown = () => {
                       </div>
                       <div className="text-center mt-3">
                         <span className="text-lg font-bold text-green-600 bg-green-50 px-4 py-2 rounded-full">
-                          💸 You Save: $277+
+                          💸 You Save: $377
                         </span>
                       </div>
                     </div>

@@ -31,12 +31,10 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* Military Verification Note */}
+          {/* Military Family Note */}
           <div className="bg-gb-red/10 border-2 border-gb-red rounded-lg p-4 mb-8 max-w-2xl mx-auto">
             <p className="text-gb-red font-semibold text-center">
-              🇺🇸 Exclusive offer for Active Military, Reserves, National Guard, and Veterans
-              <br />
-              <span className="text-sm font-normal">Military ID or DD-214 required</span>
+              🇺🇸 Exclusive offer for Active Military, Reserves, National Guard, Veterans & Military Families
             </p>
           </div>
 
@@ -53,7 +51,7 @@ const Hero = () => {
               <div className="text-4xl font-bold text-gb-red mb-2">FREE</div>
               <div className="text-foreground font-semibold">Uniform Included</div>
               <div className="text-sm text-muted-foreground mt-2">
-                $100+ value - yours to keep
+                $200 value - yours to keep
               </div>
             </div>
             <div className="bg-gb-light-blue rounded-lg p-6 text-center border-2 border-gb-blue">
