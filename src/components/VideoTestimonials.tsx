@@ -1,91 +1,84 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 const videoTestimonials = [
   {
     id: "OwaRF8Z_qN8",
-    title: "Parent Testimonial - Confidence Building",
-    description: "Real stories from parents about their children's transformation"
+    title: "Veteran Success Story - Mental Strength",
+    description: "How Brazilian Jiu-Jitsu helped build mental resilience after service"
   },
   {
     id: "gWCAWBThRWg", 
-    title: "Adult Student Success Story",
-    description: "How Jiu-Jitsu changed an adult student's life"
+    title: "From Military to BJJ - Finding Purpose",
+    description: "A veteran's journey to finding new purpose and brotherhood"
   },
   {
     id: "tHX0ETfjhtg",
-    title: "Family Training Experience", 
-    description: "Families training together at Gracie Barra Layton"
+    title: "Combat Veteran Testimonial", 
+    description: "Real talk about PTSD, discipline, and healing through martial arts"
   },
   {
     id: "1SEsUCkzQTI",
-    title: "Kids Program Benefits",
-    description: "The positive impact of martial arts on children"
+    title: "Military Brotherhood at Gracie Barra",
+    description: "The camaraderie and support system for service members"
   },
   {
     id: "tO8IA3j_aC8",
-    title: "Community and Growth",
-    description: "Building lasting friendships through Jiu-Jitsu"
+    title: "Stress Relief Through Training",
+    description: "How Jiu-Jitsu provides healthy stress management for veterans"
   },
   {
     id: "DZVoaLzT40s",
-    title: "Instructor Dedication",
-    description: "Meet our certified instructors and their commitment"
+    title: "Instructor Support for Veterans",
+    description: "Our commitment to supporting military personnel and veterans"
   }
 ];
 
 const VideoTestimonials = () => {
   return (
-    <section className="py-20 bg-primary-deep/5">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            See the Transformation
+            Veteran Stories: In Their Own Words
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it — watch real families share their 
-            Gracie Barra Layton journey in their own words.
+            Watch real veterans and military personnel share their transformation 
+            stories and experiences at Gracie Barra Layton.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {videoTestimonials.slice(0, 6).map((video, index) => (
-            <Card key={index} className="shadow-card hover:shadow-martial transition-all duration-300 border-border group">
+            <Card key={index} className="shadow-lg hover:shadow-xl transition-all duration-300 border-border">
               <CardContent className="p-0">
-                <div className="relative">
-                  <div 
-                    className="aspect-video bg-cover bg-center rounded-t-lg cursor-pointer relative overflow-hidden"
-                    style={{ 
-                      backgroundImage: `url(https://img.youtube.com/vi/${video.id}/maxresdefault.jpg)` 
-                    }}
-                    onClick={() => window.open(`https://www.youtube.com/watch?v=${video.id}`, '_blank')}
-                  >
-                    <div className="absolute inset-0 bg-primary-deep/30 group-hover:bg-primary-deep/20 transition-colors" />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                        <div className="w-0 h-0 border-l-[16px] border-l-white border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent ml-1" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="p-4">
-                    <h3 className="font-semibold text-foreground mb-2">{video.title}</h3>
-                    <p className="text-sm text-muted-foreground">{video.description}</p>
-                  </div>
+                <div className="aspect-video">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${video.id}?rel=0&modestbranding=1`}
+                    title={video.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full rounded-t-lg"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-foreground mb-2 text-lg">{video.title}</h3>
+                  <p className="text-sm text-muted-foreground">{video.description}</p>
                 </div>
               </CardContent>
             </Card>
           ))}
         </div>
         
-        <div className="text-center">
-          <Button 
-            variant="outline" 
-            size="lg"
-            onClick={() => window.open("https://www.youtube.com/@GracieBarraLayton", "_blank")}
-            className="text-lg px-8 py-4"
-          >
-            Watch More Stories on YouTube
-          </Button>
+        <div className="text-center mt-12">
+          <div className="bg-gb-light-blue rounded-lg p-6 max-w-2xl mx-auto border-2 border-gb-blue">
+            <h3 className="text-xl font-bold text-gb-blue mb-3">
+              🎥 More Stories Available
+            </h3>
+            <p className="text-muted-foreground">
+              These testimonials represent real experiences from our veteran community. 
+              Your transformation story could be next.
+            </p>
+          </div>
         </div>
       </div>
     </section>

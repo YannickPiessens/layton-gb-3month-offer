@@ -12,10 +12,10 @@ const ValueBreakdown = () => {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Amazing Value - Limited Time Only
+              Military & Veteran Exclusive Pricing
             </h2>
             <p className="text-lg text-muted-foreground">
-              See exactly what you get with this exclusive 3-month offer
+              Our way of saying thank you for your service - see exactly what you get with this exclusive offer
             </p>
           </div>
           
@@ -75,7 +75,7 @@ const ValueBreakdown = () => {
                       <div>
                         <div className="font-semibold text-foreground">After 3 Months</div>
                         <div className="text-sm text-muted-foreground">
-                          Continue at $129/mo (kids) or $149/mo (adults) - or cancel anytime
+                          Continue at discounted veteran rate: $149/mo - or complete your mission with us
                         </div>
                       </div>
                     </div>
@@ -90,7 +90,7 @@ const ValueBreakdown = () => {
                   onClick={handlePurchase}
                   className="text-lg px-10 py-4"
                 >
-                  🥋 Claim Your 3-Month Package
+                  🇺🇸 Secure Your Military Discount
                 </Button>
                 <p className="text-sm text-muted-foreground mt-3">
                   🔒 Secure payment • No hidden fees • Cancel anytime after 3 months

@@ -10,28 +10,29 @@ const FinalCTA = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-            Don't Miss This Limited-Time Opportunity
+            Your Mission Awaits
           </h2>
           
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            Spots are filling up fast. This special $270 pricing won't last forever. 
+            This exclusive military discount won't last forever. Join the brotherhood of veterans 
+            who've found their next challenge at Gracie Barra Layton.
             <br className="hidden md:block" />
-            Secure your family's transformation today.
+            <strong>Continue your journey of excellence.</strong>
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 mb-10 border border-white/20">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="text-center">
                 <div className="text-4xl font-bold text-gb-red mb-2">$270</div>
-                <div className="text-white/90">Complete 3-Month Program</div>
+                <div className="text-white/90">Military/Veteran Exclusive</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl font-bold text-gb-red mb-2">FREE</div>
-                <div className="text-white/90">Uniform Included ($100+ Value)</div>
+                <div className="text-white/90">Uniform + Brotherhood</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-gb-red mb-2">ZERO</div>
-                <div className="text-white/90">Long-Term Commitment</div>
+                <div className="text-4xl font-bold text-gb-red mb-2">HONOR</div>
+                <div className="text-white/90">Discipline • Respect • Excellence</div>
               </div>
             </div>
             
@@ -41,21 +42,21 @@ const FinalCTA = () => {
               onClick={handlePurchase}
               className="text-xl px-12 py-6 shadow-lg"
             >
-              🥋 Start Training Today - $270
+              🇺🇸 Honor Your Service - Start Today
             </Button>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6 text-white/80">
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-gb-red rounded-full" />
-                Secure online payment
+                Military ID verification required
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-gb-red rounded-full" />
-                Begin as early as tomorrow
+                Veteran brotherhood awaits
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-gb-red rounded-full" />
-                All ages and skill levels
+                Mission-ready training
               </span>
             </div>
           </div>

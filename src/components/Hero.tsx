@@ -18,14 +18,24 @@ const Hero = () => {
               className="w-40 h-40 mx-auto mb-6"
             />
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
-              3 Months for <span className="text-gb-red">$270</span>
+              <span className="text-gb-red">Military & Veterans</span> Special
             </h1>
             <h2 className="text-2xl md:text-3xl text-gb-blue font-semibold mb-6">
-              Train • Transform • Thrive
+              3 Months for $270 • Honor • Discipline • Brotherhood
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Join the Gracie Barra Layton family with our limited-time offer. 
-              Get 3 months of world-class Brazilian Jiu-Jitsu training plus a free uniform for just $270.
+              Exclusive offer for our Military and Veterans. Continue your journey of discipline and excellence 
+              with authentic Brazilian Jiu-Jitsu training. Build strength, sharpen your mind, and join a brotherhood 
+              that understands service and sacrifice.
+            </p>
+          </div>
+
+          {/* Military Verification Note */}
+          <div className="bg-gb-red/10 border-2 border-gb-red rounded-lg p-4 mb-8 max-w-2xl mx-auto">
+            <p className="text-gb-red font-semibold text-center">
+              🇺🇸 Exclusive offer for Active Military, Reserves, National Guard, and Veterans
+              <br />
+              <span className="text-sm font-normal">Military ID or DD-214 required</span>
             </p>
           </div>
 
@@ -35,7 +45,7 @@ const Hero = () => {
               <div className="text-4xl font-bold text-gb-blue mb-2">$270</div>
               <div className="text-foreground font-semibold">3 Months Complete</div>
               <div className="text-sm text-muted-foreground mt-2">
-                Save $177 from regular pricing
+                Military/Veteran exclusive pricing
               </div>
             </div>
             <div className="bg-white rounded-lg p-6 text-center border-2 border-gb-red shadow-md">
@@ -49,7 +59,7 @@ const Hero = () => {
               <div className="text-4xl font-bold text-gb-blue mb-2">ZERO</div>
               <div className="text-foreground font-semibold">Commitment</div>
               <div className="text-sm text-muted-foreground mt-2">
-                No long-term contract required
+                No long-term contracts - your choice
               </div>
             </div>
           </div>
@@ -62,12 +72,12 @@ const Hero = () => {
               onClick={handlePurchase}
               className="text-xl px-12 py-4 mb-4"
             >
-              Start Your Journey Today
+              🇺🇸 Claim Your Military Discount
             </Button>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm text-muted-foreground">
-              <span>✅ Instant access after purchase</span>
-              <span>✅ All skill levels welcome</span>
-              <span>✅ Family-friendly environment</span>
+              <span>✅ Brotherhood and camaraderie</span>
+              <span>✅ Physical and mental discipline</span>
+              <span>✅ Stress relief and fitness</span>
             </div>
           </div>
         </div>

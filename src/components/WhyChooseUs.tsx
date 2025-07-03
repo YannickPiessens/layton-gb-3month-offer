@@ -2,34 +2,34 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const benefits = [
   {
-    title: "World-Renowned Curriculum",
-    description: "Train with the official Gracie Barra system, trusted by millions worldwide",
-    icon: "🥋"
+    title: "Mental Toughness & Focus",
+    description: "Build unbreakable mental resilience and laser-sharp focus through disciplined training",
+    icon: "🧠"
   },
   {
-    title: "Certified Instructors",
-    description: "Learn from experienced, certified professionals in a clean, family-friendly space",
-    icon: "👨‍🏫"
-  },
-  {
-    title: "Confidence Building",
-    description: "Build unshakeable confidence and mental strength for kids and adults alike",
-    icon: "💪"
-  },
-  {
-    title: "Safe Environment",
-    description: "Fun, structured, and safe training environment for all skill levels",
-    icon: "🛡️"
-  },
-  {
-    title: "Supportive Community",
-    description: "Join a supportive community with deep roots and lasting friendships",
+    title: "Brotherhood & Community",
+    description: "Connect with fellow service members and veterans who understand your journey",
     icon: "🤝"
   },
   {
-    title: "Flexible Schedule",
-    description: "Multiple class times to fit your busy lifestyle and family schedule",
-    icon: "⏰"
+    title: "Stress Relief & PTSD Support",
+    description: "Channel stress into productive training while building confidence and inner peace",
+    icon: "🛡️"
+  },
+  {
+    title: "Physical Conditioning",
+    description: "Maintain peak physical readiness with functional strength and cardio training",
+    icon: "💪"
+  },
+  {
+    title: "Proven Combat System",
+    description: "Learn authentic techniques developed for real-world self-defense situations",
+    icon: "🥋"
+  },
+  {
+    title: "Structured Environment",
+    description: "Thrive in a disciplined, respectful training environment that honors military values",
+    icon: "📋"
   }
 ];
 
@@ -39,16 +39,17 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Why Gracie Barra Layton?
+            Why Veterans Choose Gracie Barra
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            More than just martial arts training — we're building character, confidence, and community.
+            Continue your mission of excellence with training that builds on the discipline, 
+            honor, and commitment you've already developed in service.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="shadow-card hover:shadow-martial transition-all duration-300 border-border hover:border-gold/30">
+            <Card key={index} className="shadow-card hover:shadow-lg transition-all duration-300 border-border hover:border-gb-blue/50">
               <CardContent className="p-6 text-center">
                 <div className="text-4xl mb-4">{benefit.icon}</div>
                 <h3 className="text-xl font-bold text-foreground mb-3">
@@ -63,13 +64,14 @@ const WhyChooseUs = () => {
         </div>
         
         <div className="text-center mt-16">
-          <div className="bg-gold-light rounded-lg p-8 max-w-2xl mx-auto border border-gold/30">
+          <div className="bg-gb-light-blue rounded-lg p-8 max-w-3xl mx-auto border-2 border-gb-blue">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              🎉 Bonus: Free Family Class
+              🇺🇸 Honoring Those Who Served
             </h3>
             <p className="text-lg text-muted-foreground">
-              Want to test the waters first? Come try our <strong>Free Family Class</strong> every 
-              Saturday at 10AM — no experience needed!
+              At Gracie Barra Layton, we understand the unique challenges faced by military personnel 
+              and veterans. Our training provides structure, camaraderie, and purpose that resonates 
+              with your service experience. <strong>Join a community that gets it.</strong>
             </p>
           </div>
         </div>
