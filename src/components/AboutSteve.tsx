@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import steveCrislerPhoto from "@/assets/steve-crisler-professional.jpg";
+
+const steveCrislerPhoto = "/lovable-uploads/0e8a269e-baf0-4a9d-8743-0417089e2d97.png";
 
 const AboutSteve = () => {
   return (
