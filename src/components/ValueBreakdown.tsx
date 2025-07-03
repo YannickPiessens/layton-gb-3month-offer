@@ -7,82 +7,93 @@ const ValueBreakdown = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-subtle">
+    <section className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            What's Included
-          </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to start your martial arts journey, at an unbeatable value.
-          </p>
-        </div>
-        
-        <div className="max-w-4xl mx-auto">
-          <Card className="mb-8 shadow-card border-2 border-gold/20">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Amazing Value - Limited Time Only
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              See exactly what you get with this exclusive 3-month offer
+            </p>
+          </div>
+          
+          <Card className="shadow-lg border-2 border-gb-blue">
             <CardContent className="p-8">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                {/* Value Breakdown */}
                 <div>
-                  <h3 className="text-3xl font-bold text-foreground mb-4">
-                    Amazing Value Breakdown
+                  <h3 className="text-2xl font-bold text-gb-blue mb-6 text-center">
+                    💰 Value Breakdown
                   </h3>
                   <div className="space-y-4">
-                    <div className="flex justify-between items-center">
-                      <span className="text-lg text-muted-foreground">Regular monthly rate ($149 × 3)</span>
-                      <span className="text-lg font-semibold text-foreground line-through">$447</span>
+                    <div className="flex justify-between items-center p-3 bg-gray-50 rounded">
+                      <span className="text-foreground">Regular Price (3 months @ $149)</span>
+                      <span className="font-semibold text-foreground line-through">$447</span>
                     </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-lg text-muted-foreground">Free uniform (value)</span>
-                      <span className="text-lg font-semibold text-foreground">$100+</span>
+                    <div className="flex justify-between items-center p-3 bg-gray-50 rounded">
+                      <span className="text-foreground">Free Uniform (Gi)</span>
+                      <span className="font-semibold text-foreground">$100+</span>
                     </div>
-                    <div className="border-t border-border pt-4">
-                      <div className="flex justify-between items-center">
-                        <span className="text-2xl font-bold text-foreground">Your Price</span>
-                        <span className="text-3xl font-bold text-gold">$270</span>
+                    <div className="border-t-2 border-gb-red pt-4">
+                      <div className="flex justify-between items-center p-3 bg-gb-light-blue rounded">
+                        <span className="text-xl font-bold text-foreground">Your Price Today</span>
+                        <span className="text-3xl font-bold text-gb-red">$270</span>
                       </div>
-                      <div className="text-center mt-2">
-                        <span className="text-lg font-semibold text-success">
-                          You Save: $277+
+                      <div className="text-center mt-3">
+                        <span className="text-lg font-bold text-green-600 bg-green-50 px-4 py-2 rounded-full">
+                          💸 You Save: $277+
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
                 
-                <div className="bg-muted rounded-lg p-6">
-                  <h4 className="text-xl font-bold text-foreground mb-4">After 3 Months</h4>
-                  <ul className="space-y-3 text-muted-foreground">
-                    <li className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-gold rounded-full" />
-                      Kids continue: $129/month
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-gold rounded-full" />
-                      Adults continue: $149/month
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-gold rounded-full" />
-                      No contract • Cancel anytime
-                    </li>
-                    <li className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-gold rounded-full" />
-                      Keep your free uniform
-                    </li>
-                  </ul>
+                {/* What Happens Next */}
+                <div>
+                  <h3 className="text-2xl font-bold text-gb-blue mb-6 text-center">
+                    📅 What Happens Next
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-start gap-3 p-3 bg-white rounded border-l-4 border-gb-blue">
+                      <div className="w-8 h-8 bg-gb-blue text-white rounded-full flex items-center justify-center text-sm font-bold">1</div>
+                      <div>
+                        <div className="font-semibold text-foreground">Purchase Today</div>
+                        <div className="text-sm text-muted-foreground">Secure your spot with instant access</div>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3 p-3 bg-white rounded border-l-4 border-gb-blue">
+                      <div className="w-8 h-8 bg-gb-blue text-white rounded-full flex items-center justify-center text-sm font-bold">2</div>
+                      <div>
+                        <div className="font-semibold text-foreground">Start Training</div>
+                        <div className="text-sm text-muted-foreground">Begin as early as tomorrow</div>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3 p-3 bg-white rounded border-l-4 border-gb-blue">
+                      <div className="w-8 h-8 bg-gb-blue text-white rounded-full flex items-center justify-center text-sm font-bold">3</div>
+                      <div>
+                        <div className="font-semibold text-foreground">After 3 Months</div>
+                        <div className="text-sm text-muted-foreground">
+                          Continue at $129/mo (kids) or $149/mo (adults) - or cancel anytime
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               
-              <div className="text-center mt-8">
+              <div className="text-center mt-8 pt-6 border-t border-gray-200">
                 <Button 
-                  variant="hero" 
+                  variant="gbRed" 
                   size="lg" 
                   onClick={handlePurchase}
-                  className="text-lg px-8 py-4"
+                  className="text-lg px-10 py-4"
                 >
-                  Get 3 Months for $270
+                  🥋 Claim Your 3-Month Package
                 </Button>
-                <p className="text-sm text-muted-foreground mt-2">
-                  🔒 Secure checkout • Start immediately
+                <p className="text-sm text-muted-foreground mt-3">
+                  🔒 Secure payment • No hidden fees • Cancel anytime after 3 months
                 </p>
               </div>
             </CardContent>

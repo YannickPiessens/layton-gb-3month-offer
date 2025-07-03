@@ -9,56 +9,47 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 214 31% 10%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 214 31% 10%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 214 31% 10%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 214 84% 8%;
+    --primary: 214 100% 50%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 214 84% 8%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 214 32% 95%;
+    --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
-    --accent: 45 93% 47%;
-    --accent-foreground: 214 84% 8%;
+    --accent: 0 84% 60%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 214 84% 8%;
+    --ring: 214 100% 50%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
     
-    /* Martial Arts Design System */
-    --primary-deep: 214 84% 8%;
-    --primary-navy: 217 33% 17%;
-    --gold: 45 93% 47%;
-    --gold-light: 48 96% 89%;
-    --success: 142 71% 45%;
-    --warning: 38 92% 50%;
+    /* Gracie Barra Design System */
+    --gb-blue: 214 100% 50%;
+    --gb-red: 0 84% 60%;
+    --gb-dark-blue: 214 100% 35%;
+    --gb-light-blue: 214 100% 95%;
     
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-deep)), hsl(var(--primary-navy)));
-    --gradient-gold: linear-gradient(135deg, hsl(var(--gold)), hsl(38 92% 50%));
-    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    /* Traditional shadows */
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --shadow-section: 0 4px 12px rgba(0, 0, 0, 0.1);
     
-    /* Shadows */
-    --shadow-martial: 0 25px 50px -12px hsl(var(--primary-deep) / 0.25);
-    --shadow-gold: 0 10px 40px -10px hsl(var(--gold) / 0.3);
-    --shadow-card: 0 4px 6px -1px hsl(214 31% 10% / 0.1);
-    
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* Transitions */
+    --transition: all 0.3s ease;
 
     --sidebar-background: 0 0% 98%;
 

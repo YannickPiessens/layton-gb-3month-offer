@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
 import gbLogo from "@/assets/gb-logo.png";
 
 const Hero = () => {
@@ -8,73 +7,69 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
-        <div className="absolute inset-0 bg-primary-deep/75" />
-      </div>
-      
-      {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center">
-        <div className="max-w-4xl mx-auto">
-          {/* Logo */}
-          <div className="mb-8">
+    <section className="bg-white py-16 border-b-4 border-gb-red">
+      <div className="container mx-auto px-4">
+        <div className="max-w-6xl mx-auto">
+          {/* Header with Logo and Title */}
+          <div className="text-center mb-12">
             <img 
               src={gbLogo} 
               alt="Gracie Barra Layton" 
-              className="w-32 h-32 mx-auto animate-float"
+              className="w-40 h-40 mx-auto mb-6"
             />
-          </div>
-          
-          <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Train for 3 Months.
-            <span className="block text-gold">Change Your Life.</span>
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            We believe Jiu-Jitsu is more than just a martial art — it's a path to strength, 
-            confidence, and lifelong friendships. For a limited time, get 3 months of training 
-            — plus a free uniform — for only <span className="text-gold font-bold">$270</span>.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              variant="hero" 
-              size="lg" 
-              onClick={handlePurchase}
-              className="text-lg px-8 py-4 animate-glow"
-            >
-              Claim Your 3-Month Trial
-            </Button>
-            <p className="text-primary-foreground/80 text-sm">
-              🚀 Limited-time offer • No commitment required
+            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
+              3 Months for <span className="text-gb-red">$270</span>
+            </h1>
+            <h2 className="text-2xl md:text-3xl text-gb-blue font-semibold mb-6">
+              Train • Transform • Thrive
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              Join the Gracie Barra Layton family with our limited-time offer. 
+              Get 3 months of world-class Brazilian Jiu-Jitsu training plus a free uniform for just $270.
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
-            <div className="bg-card/20 backdrop-blur-sm rounded-lg p-4 border border-primary-foreground/20">
-              <div className="text-2xl font-bold text-gold">$270</div>
-              <div className="text-primary-foreground text-sm">3 Months Total</div>
+
+          {/* Offer Highlights */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div className="bg-gb-light-blue rounded-lg p-6 text-center border-2 border-gb-blue">
+              <div className="text-4xl font-bold text-gb-blue mb-2">$270</div>
+              <div className="text-foreground font-semibold">3 Months Complete</div>
+              <div className="text-sm text-muted-foreground mt-2">
+                Save $177 from regular pricing
+              </div>
             </div>
-            <div className="bg-card/20 backdrop-blur-sm rounded-lg p-4 border border-primary-foreground/20">
-              <div className="text-2xl font-bold text-gold">Free</div>
-              <div className="text-primary-foreground text-sm">Uniform Included</div>
+            <div className="bg-white rounded-lg p-6 text-center border-2 border-gb-red shadow-md">
+              <div className="text-4xl font-bold text-gb-red mb-2">FREE</div>
+              <div className="text-foreground font-semibold">Uniform Included</div>
+              <div className="text-sm text-muted-foreground mt-2">
+                $100+ value - yours to keep
+              </div>
             </div>
-            <div className="bg-card/20 backdrop-blur-sm rounded-lg p-4 border border-primary-foreground/20">
-              <div className="text-2xl font-bold text-gold">No</div>
-              <div className="text-primary-foreground text-sm">Commitment</div>
+            <div className="bg-gb-light-blue rounded-lg p-6 text-center border-2 border-gb-blue">
+              <div className="text-4xl font-bold text-gb-blue mb-2">ZERO</div>
+              <div className="text-foreground font-semibold">Commitment</div>
+              <div className="text-sm text-muted-foreground mt-2">
+                No long-term contract required
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-float">
-        <div className="w-6 h-10 border-2 border-primary-foreground/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-gold rounded-full mt-2 animate-pulse" />
+
+          {/* CTA Section */}
+          <div className="text-center">
+            <Button 
+              variant="gb" 
+              size="lg" 
+              onClick={handlePurchase}
+              className="text-xl px-12 py-4 mb-4"
+            >
+              Start Your Journey Today
+            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm text-muted-foreground">
+              <span>✅ Instant access after purchase</span>
+              <span>✅ All skill levels welcome</span>
+              <span>✅ Family-friendly environment</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
