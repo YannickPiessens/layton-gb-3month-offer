@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
+import gbLogo from "@/assets/gb-logo.png";
 
 const Hero = () => {
   const handlePurchase = () => {
@@ -19,6 +20,15 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
+          {/* Logo */}
+          <div className="mb-8">
+            <img 
+              src={gbLogo} 
+              alt="Gracie Barra Layton" 
+              className="w-32 h-32 mx-auto animate-float"
+            />
+          </div>
+          
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
             Train for 3 Months.
             <span className="block text-gold">Change Your Life.</span>
