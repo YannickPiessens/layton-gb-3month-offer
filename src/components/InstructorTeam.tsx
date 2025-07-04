@@ -73,7 +73,7 @@ const InstructorTeam = () => {
             <p className="text-lg text-muted-foreground">
               Both Master Nelson and Professor Rafael learned directly from Master Carlos Gracie Jr., 
               ensuring you receive the most authentic Brazilian Jiu-Jitsu instruction available. 
-              Professor Hoffa is a 5th degree Black Belt. Their combined expertise spans <strong>decades of competition and teaching excellence</strong>.
+              Their combined expertise spans <strong>decades of competition and teaching excellence</strong>.
             </p>
             <div className="mt-6 text-center">
               <span className="inline-block bg-gb-red text-white px-4 py-2 rounded-full font-semibold">

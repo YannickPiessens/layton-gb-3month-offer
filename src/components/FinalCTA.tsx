@@ -14,7 +14,7 @@ const FinalCTA = () => {
           </h2>
           
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            This exclusive military discount won't last forever. Join the brotherhood of veterans 
+            This exclusive military discount won't last forever. Join the community of veterans 
             who've found their next challenge at Gracie Barra Layton.
             <br className="hidden md:block" />
             <strong>Continue your journey of excellence.</strong>

@@ -37,7 +37,7 @@ const VideoTestimonials = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto justify-items-center">
           {videoTestimonials.map((video, index) => (
             <Card key={index} className="shadow-lg hover:shadow-xl transition-all duration-300 border-border">
               <CardContent className="p-0">
