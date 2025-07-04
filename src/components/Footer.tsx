@@ -67,7 +67,8 @@ const Footer = () => {
               onClick={handlePurchase}
               className="text-base md:text-lg px-6 md:px-8 py-3 md:py-4 bg-white text-gb-blue hover:bg-white/90 font-bold shadow-lg mb-6 w-full sm:w-auto"
             >
-              👆 Click Here to Claim Your Military Discount
+              <span className="md:hidden">👆 Claim Military Discount</span>
+              <span className="hidden md:inline">👆 Click Here to Claim Your Military Discount</span>
             </Button>
             
             <p className="text-base md:text-lg text-white/70 mb-4">

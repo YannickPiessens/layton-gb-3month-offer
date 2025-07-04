@@ -43,7 +43,8 @@ const FinalCTA = () => {
                 onClick={handlePurchase}
                 className="text-sm md:text-base lg:text-lg xl:text-xl px-4 md:px-6 lg:px-8 xl:px-12 py-3 md:py-4 lg:py-6 shadow-lg w-full max-w-sm md:max-w-md lg:max-w-lg"
               >
-                🇺🇸 Click Here to Claim Your Military Discount
+                <span className="md:hidden">🇺🇸 Claim Military Discount</span>
+                <span className="hidden md:inline">🇺🇸 Click Here to Claim Your Military Discount</span>
               </Button>
             </div>
             
