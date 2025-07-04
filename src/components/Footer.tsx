@@ -1,9 +1,4 @@
-import { Button } from "@/components/ui/button";
-
 const Footer = () => {
-  const handlePurchase = () => {
-    window.open("https://buy.stripe.com/6oE6qwfA099Q8qAaEK", "_blank");
-  };
   return (
     <footer className="bg-white py-12 border-t-4 border-gb-red">
       <div className="container mx-auto px-4">
@@ -15,25 +10,6 @@ const Footer = () => {
             <p className="text-muted-foreground">
               Your Path to Strength, Confidence, and Community
             </p>
-          </div>
-          
-          {/* Military Signup Section */}
-          <div className="bg-gb-blue rounded-lg p-8 mb-12 text-center">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              🇺🇸 Ready to Start Your Military Journey?
-            </h3>
-            <p className="text-lg text-white/90 mb-6">
-              <strong>$270 for 3 months unlimited</strong> • FREE uniform • No long-term commitment
-            </p>
-            
-            <Button 
-              variant="secondary" 
-              size="lg" 
-              onClick={handlePurchase}
-              className="text-xl px-12 py-4 bg-white text-gb-blue hover:bg-white/90 font-bold shadow-lg"
-            >
-              👆 Click Here to Claim Your Military Discount
-            </Button>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
