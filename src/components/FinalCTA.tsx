@@ -62,6 +62,34 @@ const FinalCTA = () => {
           </div>
           
           <div className="border-t border-white/20 pt-8">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-bold text-white mb-4">
+                Ready to Start Your Journey?
+              </h3>
+              <p className="text-lg text-white/90 mb-6">
+                <strong>$270 for 3 months unlimited training</strong> • FREE uniform included • No long-term commitment
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                <Button 
+                  variant="secondary" 
+                  size="lg" 
+                  onClick={handlePurchase}
+                  className="text-lg px-8 py-4 bg-white text-gb-blue hover:bg-white/90 font-bold shadow-lg"
+                >
+                  👆 Click Here to Claim Your Military Discount
+                </Button>
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  onClick={handlePurchase}
+                  className="text-lg px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-gb-blue font-bold"
+                >
+                  🚀 Start Training Today - Click Here
+                </Button>
+              </div>
+            </div>
+            
             <p className="text-lg text-white/70 mb-4">
               Questions? Ready to get started?
             </p>
