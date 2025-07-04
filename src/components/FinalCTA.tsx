@@ -60,38 +60,6 @@ const FinalCTA = () => {
               </span>
             </div>
           </div>
-          
-          <div className="border-t border-white/20 pt-8">
-            <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold text-white mb-4">
-                Ready to Start Your Journey?
-              </h3>
-              <p className="text-lg text-white/90 mb-6">
-                <strong>$270 for 3 months unlimited training</strong> • FREE uniform included • No long-term commitment
-              </p>
-              
-              <Button 
-                variant="secondary" 
-                size="lg" 
-                onClick={handlePurchase}
-                className="text-lg px-8 py-4 bg-white text-gb-blue hover:bg-white/90 font-bold shadow-lg"
-              >
-                👆 Click Here to Claim Your Military Discount
-              </Button>
-            </div>
-            
-            <p className="text-lg text-white/70 mb-4">
-              Questions? Ready to get started?
-            </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-white/90">
-              <a href="tel:801-252-6087" className="hover:text-gb-red transition-colors font-semibold">
-                📞 Call: 801-252-6087
-              </a>
-              <a href="mailto:steve@gblayton.com" className="hover:text-gb-red transition-colors font-semibold">
-                ✉️ Email: steve@gblayton.com
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
