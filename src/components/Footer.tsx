@@ -17,6 +17,25 @@ const Footer = () => {
             </p>
           </div>
           
+          {/* Military Signup Section */}
+          <div className="bg-gb-blue rounded-lg p-8 mb-12 text-center">
+            <h3 className="text-2xl font-bold text-white mb-4">
+              🇺🇸 Ready to Start Your Military Journey?
+            </h3>
+            <p className="text-lg text-white/90 mb-6">
+              <strong>$270 for 3 months unlimited</strong> • FREE uniform • No long-term commitment
+            </p>
+            
+            <Button 
+              variant="secondary" 
+              size="lg" 
+              onClick={handlePurchase}
+              className="text-xl px-12 py-4 bg-white text-gb-blue hover:bg-white/90 font-bold shadow-lg"
+            >
+              👆 Click Here to Claim Your Military Discount
+            </Button>
+          </div>
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="text-center p-6 bg-gray-50 rounded-lg">
               <h4 className="font-bold text-gb-blue mb-3 text-lg">📍 Location</h4>
@@ -49,35 +68,6 @@ const Footer = () => {
                 Saturdays at 10:00 AM<br />
                 <span className="text-gb-red font-semibold">No experience needed!</span>
               </p>
-            </div>
-          </div>
-          
-          {/* Military Signup Section */}
-          <div className="bg-gb-blue rounded-lg p-8 mb-8 text-center">
-            <h3 className="text-2xl font-bold text-white mb-4">
-              🇺🇸 Ready to Start Your Military Journey?
-            </h3>
-            <p className="text-lg text-white/90 mb-6">
-              <strong>$270 for 3 months unlimited</strong> • FREE uniform • No long-term commitment
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button 
-                variant="secondary" 
-                size="lg" 
-                onClick={handlePurchase}
-                className="text-lg px-8 py-4 bg-white text-gb-blue hover:bg-white/90 font-bold shadow-lg"
-              >
-                👆 Click Here to Claim Your Discount
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                onClick={handlePurchase}
-                className="text-lg px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-gb-blue font-bold"
-              >
-                🚀 Start Today - Click Here
-              </Button>
             </div>
           </div>
           
